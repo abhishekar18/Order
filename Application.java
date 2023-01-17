@@ -24,6 +24,13 @@ public class Application {
 		System.out.println("Order Book");
 		order.orderBook(orderList);
 		
+		System.out.println("Orders Pending More than 3 months");
+		order.orderMoreThanThreePending(orderList);
+		
+		System.out.println("Top 3 Customers");
+		order.topThreeCustomers(orderList);
+		
+		
 	}
 
 	
